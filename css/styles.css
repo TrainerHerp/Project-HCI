@@ -186,6 +186,10 @@
   display: none;
 }
 
+.slides img{
+  width: 100%;
+}
+
 .prev, .next{
   cursor: pointer;
   position: absolute;
