@@ -266,37 +266,11 @@
 /* Gallery End */
 
 /* Characters */
-.modal-bg{
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;;
-  background-color: rgba(0,0,0,0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibilty 0s, opacity 0.3s;
-}
 
-.bg-active{
-  visibility: visible;
-  opacity: 1;
-}
-
-.modal{
-  border: 1px solid red;
-  background-color: white;
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .characters_body{
   height: 110vh;
+  width: auto;
   background-image: url("../assets/light-background.jpg");
   background-size: cover;
   background-position: center;
@@ -364,6 +338,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  cursor: pointer;
   /* border: 2px solid green; */
 }
 
@@ -387,7 +362,8 @@
   justify-content: space-around;
   height: 100%;
   width: 15%;
-  border: 3px solid gold;
+  border: 3px solid #47dbd2;
+  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -402,6 +378,7 @@
   height: 100%;
   width: 15%;
   border: 3px solid darkblue;
+  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -411,7 +388,7 @@
 }
 
 .char_card_light h3{
-  border-top: 2px solid gold;
+  border-top: 2px solid #47dbd2;
   width: 100%;
   text-align: center;
 }
@@ -448,4 +425,175 @@
 
 #amber:hover #amber_img{
   content: url("../Assets/amber_hover.png");
+}
+
+#bennett:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#bennett:hover #bennett_img{
+  content: url("../Assets/bennett_hover.png");
+}
+
+#chongyun:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#chongyun:hover #chongyun_img{
+  content: url("../Assets/chongyun_hover.png");
+}
+
+#xiao:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#xiao:hover #xiao_img{
+  content: url("../Assets/xiao_hover.png");
+}
+
+#beidou:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#beidou:hover #beidou_img{
+  content: url("../Assets/beidou_hover.png");
+}
+
+#diluc:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#diluc:hover #diluc_img{
+  content: url("../Assets/diluc_hover.png");
+}
+
+#fischl:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#fischl:hover #fischl_img{
+  content: url("../Assets/fischl_hover.png");
+}
+
+#mona:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+#mona:hover #mona_img{
+  content: url("../Assets/mona_hover.png");
+}
+
+.modal-bg{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibilty 0s, opacity 0.3s;
+}
+
+.bg-active{
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal{
+  background-color: white;
+  width:65%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-image: url("../assets/light_modal_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.char_img_modal{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+}
+
+.char_img_modal img{
+  height: 100%;
+  width: auto;
+}
+
+.char_detail_modal{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.char_name_modal{
+  /* border: 3px solid green; */
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.char_name_modal h1{
+  font-size: 3.2rem;
+  color: orange;
+  -webkit-text-stroke: 1px white;
+}
+
+.char_story_modal{
+  /* border: 3px solid green; */
+  height: 55%;
+}
+
+.char_story_modal p{
+  color: white;
+  font-size: 1.4rem;
+}
+
+.close_modal{
+  /* border: 3px solid green; */
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-start;
+  padding-right: 50px;
+}
+
+.close_modal button{
+  height: 70%;
+  width: 20%;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.close_modal button:hover{
+  background-color: rgba(0,0,0,0.5);
 }
