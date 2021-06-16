@@ -1,25 +1,28 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+$("document").ready(function(){
+  let slide = $(".slides")
+  
+  slide.each(function(){
+    $(this).hide()
+  })
 
-function moveSlide(n) {
-  showSlides(slideIndex += n);
-}
+  let idx = 0
+  $(slide[idx]).show()
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+  $("#next").click(function(){
+    $(slide[idx]).fadeOut("slow")
+    $(slide[idx]).hide()
+    idx++
+    idx%=slide.length
+    $(slide[idx]).fadeIn("slow")
+    $(slide[idx]).show()
+  })
 
-function showSlides(n) {
-  let slides = document.getElementsByClassName("slides");
-  let dots = document.getElementsByClassName("dot");
-  if(n > slides.length) slideIndex = 1;
-  if(n < 1) slideIndex = slides.length;
-  for(let i = 0; i < slides.length; i++){
-      slides[i].style.display = "none";
-  }
-  for(let i = 0; i < dots.length; i++){
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+  $("#prev").click(function(){
+    $(slide[idx]).fadeOut("slow")
+    $(slide[idx]).hide()
+    idx = (idx-1+slide.length)%slide.length
+    $(slide[idx]).fadeIn("slow")
+    $(slide[idx]).show()
+  })
+
+})
