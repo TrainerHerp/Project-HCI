@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 .header{
   background-image: url("../assets/homepage_bg_1.jpg");
   background-size: cover;
@@ -9,6 +10,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
 .navbar{
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
@@ -20,24 +22,29 @@
   z-index: 10000;
   padding: 2px 20px;
 }
+
 .navbar img{
   margin-top: 5px;
   height: 60px;
 }
+
 .navbar a{
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
 }
+
 .logo_option_navbar{
   width: 35%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .register_navbar{
   margin-right: 150px;
 }
+
 .header_content{
   height: auto;
   min-height: 100vh;
@@ -46,9 +53,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.title_header_content{
+  height: auto;
+  display: flex;
+}
+
 .title_header_content h1{
   margin-top: 1.5em;
-  width: 900px;
+  max-width: 900px;
   text-align: center;
   font-size: 4.5rem;
   color: white;
@@ -69,6 +82,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .platform_download img{
   margin: 0px 5px;
 }
@@ -94,7 +108,29 @@
   margin: 5px 10px;
 }
 
+@media only screen and (max-width: 800px){
+  .platform_download img{
+    margin-top: 5px;
+  }
+
+  .title_header_content h1{
+     font-size: 2em;
+  }
+
+  .platform_download{
+    flex-direction: column;
+  }
+}
+
 /* Register */
+
+.header_register{
+  background-image: url("../assets/bg-register.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
 #registration{
   background: rgb(238, 252, 255);
@@ -175,6 +211,7 @@
 /* Gallery */
 .header_gallery{
   background-image: url("../Assets/bg-gallery.jpg");
+  background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
   background-blend-mode: color;
   background-position: center;
