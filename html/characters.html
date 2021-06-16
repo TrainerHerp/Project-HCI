@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    
-
     <div class="navbar">
         <div class="logo_option_navbar">
             <a href="index.html"><img src="../Assets/Logo.png" alt="logo"></a>
@@ -24,7 +22,7 @@
     </div>
     
     <div class="characters_body" id="characters_body">
-        <h1>Characters</h1>
+        <!-- <h1>Characters</h1> -->
         <div class="characters_content">
             <div class="characters_category">
                 <div class="category_button" id="light_button">
@@ -35,8 +33,8 @@
                 </div>
                 
             </div>
-            <div class="characters_icon">
-                <div class="light char_active" id="light" >
+            <div class="characters_icon" id="characters_icon">
+                <div class="light char_active" id="light">
                     <div class="char_card_light albedo_modal" id="albedo">
                         <img id="albedo_img" src="../Assets/albedo.png"> 
                         <h3>Albedo</h3>
@@ -57,7 +55,6 @@
                         <img id="chongyun_img" src="../Assets/chongyun.png" alt="">
                         <h3>Chongyun</h3>
                     </div>
-                    
                 </div>
 
                 <div class="dark" id="dark" >
@@ -83,20 +80,10 @@
                     </div>
                 </div>
             </div>
-            <div class="characters_category">
-                <div>
-                    <h2>Light</h2>
-                </div>
-                <div>
-                    <h2>Dark</h2>
-                </div>
-                
-            </div>
         </div>
     </div>
 
     <div class="modal-bg">
-        
         <div class="modal" id="modal">
             <div class="char_img_modal">
                 <img id="img_modal" src="" alt="">
@@ -112,9 +99,66 @@
                     <button id="close_modal_btn">Close</button>
                 </div>
                 
+            </div> 
+        </div>
+    </div>
+
+    <div class="content_hidden" id="content_hidden">
+        <div class="light_responsive_container char_active" id="light_responsive_container">
+            <div class="prev_btn">
+                <img id="prev_light" src="../Assets/next_prev_btn.png" alt="">
             </div>
-            
-            
+            <div class="card_responsive_light albedo_modal char_light_slider" id="albedo">
+                <img id="albedo_img" src="../Assets/albedo.png"> 
+                <h3>Albedo</h3>
+            </div>
+            <div class="card_responsive_light jean_modal char_light_slider" id="jean">
+                <img id="jean_img" src="../Assets/jean.png" alt="">
+                <h3>Jean</h3>
+            </div>
+            <div class="card_responsive_light amber_modal char_light_slider" id="amber">
+                <img id="amber_img" src="../Assets/amber.png" alt="">
+                <h3>Amber</h3>
+            </div>
+            <div class="card_responsive_light bennett_modal char_light_slider" id="bennett">
+                <img id="bennett_img" src="../Assets/bennett.png" alt="">
+                <h3>Bennett</h3>
+            </div>
+            <div class="card_responsive_light chongyun_modal char_light_slider" id="chongyun">
+                <img id="chongyun_img" src="../Assets/chongyun.png" alt="">
+                <h3>Chongyun</h3>
+            </div>
+            <div class="next_btn">
+                <img id="next_light" src="../Assets/next_prev_btn.png" alt="">
+            </div>
+        </div>
+        <div class="dark_responsive_container" id="dark_responsive_container">
+            <div class="prev_btn">
+                <img id="prev_dark" src="../Assets/next_prev_btn.png" alt="">
+            </div>
+            <div class="card_responsive_dark xiao_modal char_dark_slider" id="xiao">
+                <img id="xiao_img" src="../Assets/xiao.png" alt="">
+                <h3>Xiao</h3>
+            </div>
+            <div class="card_responsive_dark beldou_modal char_dark_slider" id="beidou">
+                <img id="beidou_img" src="../Assets/beidou.png" alt="">
+                <h3>Beidou</h3>
+            </div>
+            <div class="card_responsive_dark diluc_modal char_dark_slider" id="diluc">
+                <img id="diluc_img" src="../Assets/diluc.png" alt="">
+                <h3>Diluc</h3>
+            </div>
+            <div class="card_responsive_dark fischl_modal char_dark_slider" id="fischl">
+                <img id="fischl_img" src="../Assets/fischl.png" alt="">
+                <h3>Fischl</h3>
+            </div>
+            <div class="card_responsive_dark mona_modal char_dark_slider" id="mona">
+                <img id="mona_img" src="../Assets/mona.png" alt="">
+                <h3>Mona</h3>
+            </div>
+            <div class="next_btn">
+                <img id="next_dark" src="../Assets/next_prev_btn.png" alt="">
+            </div>
         </div>
     </div>
     <script src="../js/jquery-3.5.1.min.js"></script>

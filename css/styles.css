@@ -291,6 +291,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .characters_body h1{
@@ -303,23 +304,43 @@
   width: 100%;
   height: 80vh;
   display: flex;
+  flex-direction: column;
   justify-content:space-between;
   align-items: center;
 }
 
 .characters_category{
+  width: 95%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  
-  /* background-color: black; */
+  padding: 2px;
+}
+
+.category_button{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 50%;
+  background:rgba(250, 250, 250,0.5);
+  margin-bottom: 40px;
+  border-radius: 10px;
+  /* background: linear-gradient(to right, rgba(250, 250, 250,0.6) 0%, rgba(250, 250, 250,0) 100%); */
+}
+
+#light_button{
+  background-color: rgba(250,250,250,0.9);
+}
+
+#dark_button{
+  background-color: rgba(250,250,250,0.2);
 }
 
 .characters_category h2{
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  border: 2px solid black;
+  font-size: 2rem;
 }
 
 .characters_icon{
@@ -335,6 +356,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .dark{
@@ -348,7 +370,6 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  cursor: pointer;
   /* border: 2px solid green; */
 }
 
@@ -356,11 +377,7 @@
   display: none;
 }
 
-.category_button{
-  cursor: pointer;
-  color: white;
-  margin: 5px;
-}
+
 
 .char_card_light{
   background-color: rgba(0, 0, 0, 0.4);
@@ -370,11 +387,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 100%;
+  height: 95%;
   width: 15%;
   border: 3px solid #47dbd2;
   border-radius: 5px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .char_card_dark{
@@ -385,11 +403,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 100%;
+  height: 95%;
   width: 15%;
   border: 3px solid darkblue;
   border-radius: 5px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .char_card_light img, .char_card_dark img{
@@ -606,4 +625,144 @@
 
 .close_modal button:hover{
   background-color: rgba(0,0,0,0.5);
+}
+
+.content_hidden{
+  display: none;
+}
+
+.light_responsive_container, .dark_responsive_container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_responsive_light{
+  background-color: rgba(0, 0, 0, 0.4);
+  /* margin: 5px; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 95%;
+  width: 45%;
+  border: 3px solid #47dbd2;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card_responsive_dark{
+  background-color: rgba(0, 0, 0, 0.4);
+  /* margin: 5px; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 95%;
+  width: 45%;
+  border: 3px solid darkblue;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card_responsive_dark img, .card_responsive_light img{
+  height: 90%;
+}
+
+.prev_btn, .next_btn{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev_btn img{
+  height: 15%;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.next_btn img{
+  height: 15%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px){
+  .modal{
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .char_detail_modal{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .char_name_modal{
+    /* border: 3px solid green; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .char_story_modal p{
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  .char_img_modal{
+    height: 85%;
+  }
+
+  .char_img_modal img{
+    height: 100%;
+    width: auto;
+  }
+  .close_modal{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-right: 0;
+  }
+
+  .close_modal button{
+    height: 70%;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 650px){
+
+  .modal{
+    margin-top: 40px;
+    height: 90vh;
+  }
+
+  .prev_btn img, .next_btn img{
+    height: 13%;
+  }
+
+  .char_story_modal{
+    overflow-y: auto;
+  }
+  .close_modal{
+    /* border: 1px solid red; */
+    height: 15%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
 }
