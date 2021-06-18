@@ -11,39 +11,117 @@
   background-repeat: no-repeat;
 }
 
+
 .navbar{
-  background-color: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  top: 0;
-  width: 100%;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
   align-items: center;
   justify-content: space-between;
-  z-index: 10000;
-  padding: 2px 20px;
+  height: 7vh;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
+.navbar_left{
+  display: flex;
+  align-items: center;
+}
+
+.navbar_right{
+  padding-right: 50px;
 }
 
 .navbar img{
-  margin-top: 5px;
-  height: 60px;
+  height: 55px;
 }
 
 .navbar a{
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
-
-.logo_option_navbar{
-  width: 35%;
+.navbar_left{
+  height: 100%;
+}
+.navbar_option{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 25vw;
+  margin-left: 20px;
+  height: 100%;
+}
+.dropdown_content a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  height: 5vh;
 }
 
-.register_navbar{
-  margin-right: 150px;
+.dropdown_content{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 7.2vh;
+  border: 0 1px 1px 1px solid black;
+  width: 150%;
 }
+
+.dropdown button{
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.dropdown{
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown:hover .dropdown_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_content a{
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 5px 0;
+}
+
+.dropdown_content a:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  
+}
+
+.dropdown_content a{
+  font-size: 1.3rem;
+  margin: 5px 0;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(173,173,173,255);
+  padding: 5px 0;
+}
+
+.footer img{
+  height: 35px;
+  margin: 5px 10px;
+}
+
+.sosmed{
+  margin: 5px 0;
+}
+
 
 .header_content{
   height: auto;
@@ -87,17 +165,6 @@
   margin: 0px 5px;
 }
 
-.footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(173,173,173,255);
-}
-
-.footer img{
-  height: 35px;
-  margin: 5px 10px;
-}
 
 @media only screen and (max-width: 800px){
   .platform_download img{
@@ -208,6 +275,9 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+.header_content{
+  padding-top: 100px;
 }
 
 .slideshow{
@@ -747,6 +817,78 @@
   justify-content: center;
 }
 
+/* about */
+#about
+{
+  background-image: url("../Assets/Genshin+Impact+world.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+#about-text
+{
+  padding-top: 10vw;
+  padding-bottom: 5vw;
+  text-align: center;
+  font-size: 6vw;
+  color: white;
+  -webkit-text-stroke: black 1px;
+}
+
+.about-content
+{
+  border: 2px solid blue;
+  display: flex;
+  background-color : rgba(0, 0, 0, 0.7);
+  margin-bottom: 2vw;
+  padding: 1vw;
+}
+
+.about-p-text
+{
+  align-items: center;
+  margin: auto;
+  height: 50%;
+}
+
+.about-p
+{
+  font-size: 2vw;
+  justify-content: center;
+  text-align: center;
+  color : white;
+  font-weight: bold;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+}
+
+.about-p-content
+{
+  font-size: 1.5vw;
+  justify-content: center;
+  text-align: center;
+  color : white;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.about-img
+{
+  width: 40vw;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
 @media only screen and (max-width: 800px){
 
   /* characters */
@@ -872,6 +1014,13 @@
   .char_img_modal img{
     height: 80%;
     width: auto;
+  }
+}
+
+
+@media only screen and (max-width: 1000px){
+  .navbar_option{
+    width: 50vw;
   }
 }
 
