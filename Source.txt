@@ -1,20 +1,72 @@
 --Home Page--
-Button Next and Prev : https://pngtree.com/element/down?id=Mzc5MTM3Ng==&type=1&time=1623851043&token=ZWZmN2E0MzNlMjgxZDg4ZWNlOTIwZmJlNWY5NjQ3YjY=
-Image Slider 1 : https://www.pockettactics.com/wp-content/uploads/2021/02/genshin-impact-chongyun-2-900x506.jpg
-Image Slider 2 : https://i.redd.it/u09l7o41mer51.jpg
-Image Slider 3 : https://www.xtrafondos.com/wallpapers/resized/personaje-xiao-de-genshin-impact-6710.jpg?s=large
-Image Slider 4 : https://uploadstatic-sea.mihoyo.com/contentweb/20210608/2021060813092883679.png
 homepage_bg_1.jpg : https://wallpaperaccess.com/full/3628936.jpg
-homepage_bg_2.jpg : https://wallpaperaccess.com/full/2505746.jpg
-homepage_bg_3.jpg : https://lh3.googleusercontent.com/proxy/6z1_UudQ2NoPugwAGikykCekNWCib8QJsPi_5C6RyQBQ0GiiIDp5_44jrjft6U2fOHbStEv45GRg3r8nwjmSK4ICyUlFnqIp8MAC63kkymDgSdkH1PYI3g1NiNTkoMHsF5tqnXPmiXn-i_7hVfxWG0O58BagHftF
 PS4-symbol-WHITE.png : https://www.powera.com/wp-content/uploads/2020/08/PS4-symbol-WHITE.png
 ps5-logo.png - https://media.carphonewarehouse.com/is/image/cpw2/ps5-logo?$PNG6Column$
 AppStore-Button.png : https://www.capalino.com/wp-content/uploads/2017/01/app-store-logo-apple.png
 GooglePlay-Button.png : https://w7.pngwing.com/pngs/91/37/png-transparent-google-play-android-app-store-android-text-logo-microsoft-store.png
+Windows-Button : https://v6f7u6f8.rocketcdn.me/wp-content/uploads/2019/06/windows-button.png
+*ImageSlider from Gallery Page
 
 --Register--
 bg-register : https://wallpaperwaifu.com/wp-content/uploads/2020/03/genshin-impact-thumb.jpg
 
 --Gallery--
 bg-gallery : https://www.pockettactics.com/wp-content/uploads/2021/02/genshin-impact-wallpaper-4.jpg
-gambar_1, gambar_2, gambar_3, gambar_4, gambar_5, gambar_6, gambar_7 : https://genshin.mihoyo.com/en/game
+ImageSlider images from : https://genshin.mihoyo.com/en/game
+
+Link for Image Slider : 
+gambar_1 : https://uploadstatic-sea.mihoyo.com/contentweb/20200924/2020092417575276358.jpg
+gambar_2 : https://uploadstatic-sea.mihoyo.com/contentweb/20200924/2020092417575222081.jpg
+gambar_3 : https://uploadstatic-sea.mihoyo.com/contentweb/20200924/2020092417575221927.jpg
+gambar_4 : https://uploadstatic-sea.mihoyo.com/contentweb/20200924/2020092417575311801.jpg
+gambar_5 : https://uploadstatic-sea.mihoyo.com/contentweb/20200924/2020092417575221063.jpg
+gambar_6 : https://uploadstatic-sea.mihoyo.com/contentweb/20200924/2020092417575534557.jpg
+gambar_7 : https://uploadstatic-sea.mihoyo.com/contentweb/20200924/2020092417575255251.jpg
+
+--Characters--
+Button Next and Prev : https://pngtree.com/element/down?id=Mzc5MTM3Ng==&type=1&time=1623851043&token=ZWZmN2E0MzNlMjgxZDg4ZWNlOTIwZmJlNWY5NjQ3YjY=
+
+Characters images from https://genshin-impact.fandom.com/ and image in modal from https://genshin.mihoyo.com/id/character/mondstadt?char=0
+Link :
+ 
+albedo : https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Albedo_Portrait.png/revision/latest?cb=20201217140004
+albedo_hover : https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Character_Albedo_Game.png/revision/latest?cb=20201227191228
+albedo_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20201216/2020121612011980560.png
+
+amber : https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Amber_Portrait.png/revision/latest?cb=20200914160851
+amber_hover : https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Character_Amber_Game.png/revision/latest?cb=20210610045559
+amber_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20191009/2019100915010998860.png
+
+beidou : https://static.wikia.nocookie.net/gensin-impact/images/7/74/Character_Beidou_Portrait.png/revision/latest?cb=20200916170732
+beidou_hover : https://static.wikia.nocookie.net/gensin-impact/images/f/f8/Character_Beidou_Game.png/revision/latest?cb=20201028230556
+beidou_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20200227/2020022720570237519.png
+
+bennett : https://static.wikia.nocookie.net/gensin-impact/images/7/73/Character_Bennett_Portrait.png/revision/latest?cb=20200916170558
+bennett_hover : https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Character_Bennett_Game.png/revision/latest?cb=20201201212206
+bennett_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20200312/2020031220284864612.png
+
+chongyun : https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Character_Chongyun_Portrait.png/revision/latest?cb=20200916181119
+chongyun_hover : Image from https://genshin-impact.fandom.com/ (image removed from website)
+chongyun_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20200602/2020060221230216012.png
+
+diluc : https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Character_Diluc_Portrait.png/revision/latest?cb=20200916171027
+diluc_hover : https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Character_Diluc_Game.png/revision/latest?cb=20201201204419
+diluc_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20200609/2020060916003518753.png
+
+fischl : https://static.wikia.nocookie.net/gensin-impact/images/3/34/Character_Fischl_Portrait.png/revision/latest?cb=20200916171212
+fischl_hover : https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Fischl_Game.png/revision/latest?cb=20201205031530
+fischl_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20200402/2020040211352384080.png
+
+jean : https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Jean_Portrait.png/revision/latest?cb=20200916180808
+jean_hover : https://static.wikia.nocookie.net/gensin-impact/images/3/3b/Character_Jean_Game.png/revision/latest?cb=20201205033314
+jean_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20200616/2020061611214389168.png
+
+mona : https://static.wikia.nocookie.net/gensin-impact/images/f/fe/Character_Mona_Portrait.png/revision/latest?cb=20210128000315
+mona_hover : https://static.wikia.nocookie.net/gensin-impact/images/3/37/Character_Mona_Game.png/revision/latest?cb=20201205034057
+mona_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20200903/2020090319255490505.png
+
+xiao : https://static.wikia.nocookie.net/gensin-impact/images/1/1e/Character_Xiao_Portrait.png/revision/latest?cb=20200916152108
+xiao_hover : https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Character_Xiao_Game.png/revision/latest?cb=20210209195516
+xiao_modal : https://uploadstatic-sea.mihoyo.com/contentweb/20210122/2021012215393946486.png
+
+
