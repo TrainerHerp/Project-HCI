@@ -1,8 +1,20 @@
-Jevon
--------
+--Home Page--
 Button Next and Prev : https://pngtree.com/element/down?id=Mzc5MTM3Ng==&type=1&time=1623851043&token=ZWZmN2E0MzNlMjgxZDg4ZWNlOTIwZmJlNWY5NjQ3YjY=
-Home Page = 
 Image Slider 1 : https://www.pockettactics.com/wp-content/uploads/2021/02/genshin-impact-chongyun-2-900x506.jpg
 Image Slider 2 : https://i.redd.it/u09l7o41mer51.jpg
 Image Slider 3 : https://www.xtrafondos.com/wallpapers/resized/personaje-xiao-de-genshin-impact-6710.jpg?s=large
 Image Slider 4 : https://uploadstatic-sea.mihoyo.com/contentweb/20210608/2021060813092883679.png
+homepage_bg_1.jpg : https://wallpaperaccess.com/full/3628936.jpg
+homepage_bg_2.jpg : https://wallpaperaccess.com/full/2505746.jpg
+homepage_bg_3.jpg : https://lh3.googleusercontent.com/proxy/6z1_UudQ2NoPugwAGikykCekNWCib8QJsPi_5C6RyQBQ0GiiIDp5_44jrjft6U2fOHbStEv45GRg3r8nwjmSK4ICyUlFnqIp8MAC63kkymDgSdkH1PYI3g1NiNTkoMHsF5tqnXPmiXn-i_7hVfxWG0O58BagHftF
+PS4-symbol-WHITE.png : https://www.powera.com/wp-content/uploads/2020/08/PS4-symbol-WHITE.png
+ps5-logo.png - https://media.carphonewarehouse.com/is/image/cpw2/ps5-logo?$PNG6Column$
+AppStore-Button.png : https://www.capalino.com/wp-content/uploads/2017/01/app-store-logo-apple.png
+GooglePlay-Button.png : https://w7.pngwing.com/pngs/91/37/png-transparent-google-play-android-app-store-android-text-logo-microsoft-store.png
+
+--Register--
+bg-register : https://wallpaperwaifu.com/wp-content/uploads/2020/03/genshin-impact-thumb.jpg
+
+--Gallery--
+bg-gallery : https://www.pockettactics.com/wp-content/uploads/2021/02/genshin-impact-wallpaper-4.jpg
+gambar_1, gambar_2, gambar_3, gambar_4, gambar_5, gambar_6, gambar_7 : https://genshin.mihoyo.com/en/game

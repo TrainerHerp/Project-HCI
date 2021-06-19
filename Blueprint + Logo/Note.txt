@@ -1,0 +1,4 @@
+Semua text di file "Homepage_ver_3.png" seharusnya berwarna putih.
+
+Di situ berwarna hitam karena background harusnya tidak berubah sehingga di bagian setelah gambar background langsung berwarna putih. Untuk menghindari sakit mata, maka warna text
+jadi hitam.
