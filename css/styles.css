@@ -1,6 +1,11 @@
+@font-face {
+  font-family: ubuntu;
+  src: url(../font/Ubuntu-Regular.ttf);
+}
 *{
     padding: 0px;
     margin: 0px;
+    font-family: ubuntu;
 }
 
 .content{
@@ -193,25 +198,6 @@
   margin: 0px 5px;
 }
 
-
-@media only screen and (max-width: 800px){
-  .platform_download img{
-    margin-top: 5px;
-  }
-
-  .title_header_content h1{
-     font-size: 3rem;
-  }
-
-  .platform_download{
-    flex-direction: column;
-  }
-
-  .navbar_right{
-    margin-left: 10px;
-  }
-}
-
 /* Register */
 
 .header_register{
@@ -284,18 +270,7 @@
   color: red;
 }
 
-@media only screen and (max-width: 800px){
-  #registration div div{
-    font-size: 1em;
-  }
-  #register{
-    font-size: 1.5em;
-  }
-  #submit{
-    height: 30px;
-    font-size: 1em;
-  }
-}
+
 /* Register End */
 
 /* Gallery */
@@ -307,9 +282,6 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-}
-.header_content{
-  padding-top: 100px;
 }
 
 .slideshow{
@@ -362,11 +334,6 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-@media only screen and (max-width: 800px){
-  .slideshow h1{
-    font-size: 2em;
-  }
-}
 
 /* Gallery End */
 
@@ -924,10 +891,23 @@
 @media only screen and (max-width: 1250px){
   .char_story_modal p{
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .char_img_modal{
     height: 90%;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+
+  /* navbar */
+  .navbar_option{
+    width: 50vw;
+  }
+
+  /* register */
+  #registration{
+    width: 50vw;
   }
 }
 
@@ -1031,10 +1011,47 @@
     color: white;
   }
 
+  /* gallery */
+  .slideshow h1{
+    font-size: 2em;
+  }
+
+  /* index */
+  .platform_download img{
+    margin-top: 5px;
+  }
+
+  .title_header_content h1{
+     font-size: 3rem;
+  }
+
+  .platform_download{
+    flex-direction: column;
+  }
+
+  .navbar_right{
+    margin-left: 10px;
+  }
+
+  /* registration */
+  #registration div div{
+    font-size: 1em;
+  }
+  #register{
+    font-size: 1.5em;
+  }
+  #submit{
+    height: 30px;
+    font-size: 1em;
+  }
+
+  
+
 }
 
 @media only screen and (max-width: 650px){
 
+  /* characters */
   .modal{
     margin-top: 40px;
     height: 90vh;
@@ -1057,12 +1074,21 @@
     height: 80%;
     width: auto;
   }
-}
 
-
-@media only screen and (max-width: 1000px){
-  .navbar_option{
-    width: 50vw;
+  /* navbar */
+  .navbar a{
+    font-size: 1rem;
   }
+
+  /* index */
+
+  .homepage_content_1_details p{
+    font-size: 1rem;
+  }
+  
+  
 }
+
+
+
 
